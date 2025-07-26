@@ -28,8 +28,14 @@ You can **add**, **update**, **delete**, and **query** address records using sim
 ---
 
 ## ▶️ Running the Application
+### **Option 1:(If maven installed) Execute the maven command**
+If you have maven installed already in your system then just run the following command in your bash in the same project folder
 
-### **Execute the jar file**
+```bash
+mvn spring-boot:run
+```
+
+### **Option 2: Execute the jar file**
 Once you have the JAR file, run the following command in your terminal in the project folder
 
 ```bash
