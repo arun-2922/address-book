@@ -36,9 +36,11 @@ mvn spring-boot:run
 ```
 
 ### **Option 2: Execute the jar file**
-Once you have the JAR file, run the following command in your terminal in the project folder
+If you don't have maven installed you can simply build the jar using the below command and then run the jar.
+Make sure you are in your project folder
 
 ```bash
+mvnw.cmd clean package
 java -jar target/address-book-0.0.1-SNAPSHOT.jar
 ```
 Application will start on port 5000
