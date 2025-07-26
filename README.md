@@ -40,7 +40,8 @@ If you don't have maven installed you can simply build the jar using the below c
 Make sure you are in your project folder
 
 ```bash
-mvnw.cmd clean package
+mvnw.cmd clean package(On windows or cmd)
+./mvnw clean package (On linux/mac or gitbash)
 java -jar target/address-book-0.0.1-SNAPSHOT.jar
 ```
 Application will start on port 5000
